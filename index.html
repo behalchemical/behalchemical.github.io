@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>Behal Chemicals — Eco Luxury Hotel Amenities</title>
+<meta name="description" content="Behal Chemicals — premium eco-friendly hotel amenities: wheat-straw toothbrushes, jute slippers, biodegradable toothpaste boxes and more." />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="logo" href="/">
+      <!-- inline SVG logo file referenced -->
+      <img src="assets/logo.svg" alt="Behal Chemicals logo" />
+    </a>
+    <nav class="nav">
+      <a href="#products">Products</a>
+      <a href="#about">About</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#contact" class="cta">Contact</a>
+    </nav>
+    <button class="mobile-menu" aria-label="Toggle menu">☰</button>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <h1>Eco-luxury amenities for hotels</h1>
+        <p class="lead">Sustainable. Stylish. Guest-ready. Elevate guest experience with wheat-straw toothbrushes, jute slippers, biodegradable packaging and curated amenity kits.</p>
+        <p class="theme-badges"><span class="badge beige">Beige</span><span class="badge maroon">Velvety Maroon</span><span class="badge gold">Gold Accents</span></p>
+        <a class="btn-primary" href="#contact">Get a Quote</a>
+        <a class="btn-ghost" href="https://www.instagram.com/reel/DO8aLrACTWp/?utm_source=ig_web_copy_link" target="_blank" rel="noopener">View Reel on Instagram</a>
+      </div>
+      <div class="hero-media">
+        <img src="assets/product1.svg" alt="Eco products showcase"/>
+      </div>
+    </div>
+  </section>
+
+  <section id="products" class="products container">
+    <h2 class="section-title">Featured Amenities</h2>
+    <p class="section-sub">Curated for hotels — designed to impress guests while protecting the planet.</p>
+    <div class="cards">
+      <article class="card">
+        <img src="assets/product1.svg" alt="Wheat-straw toothbrush">
+        <h3>Wheat-straw Toothbrushes</h3>
+        <p>Durable, compostable handles in multiple colors — individually packaged for guest convenience.</p>
+      </article>
+      <article class="card">
+        <img src="assets/product2.svg" alt="Jute slippers">
+        <h3>Jute Slippers</h3>
+        <p>Handcrafted, breathable, and biodegradable slippers built for comfort and eco-appeal.</p>
+      </article>
+      <article class="card">
+        <div class="card-icon">📦</div>
+        <h3>Biodegradable Paperboard Packaging</h3>
+        <p>Toothpaste and amenity sachets packaged in compostable paperboard with elegant printing options.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="container about-grid">
+      <div>
+        <h2>About Behal Chemicals</h2>
+        <p>We supply premium hotel amenities focused on sustainability and guest experience. From wheat-straw combs to shaving razors, our range is curated to match eco-luxury hotels that want conscious choices without compromising on look or feel.</p>
+        <ul class="features">
+          <li>Bulk supply & private labeling</li>
+          <li>Custom amenity kits for events & seasons</li>
+          <li>ISO-grade manufacturing & quality control</li>
+        </ul>
+      </div>
+      <div class="about-media">
+        <img src="assets/product2.svg" alt="Products in packaging"/>
+      </div>
+    </div>
+  </section>
+
+  <section id="testimonials" class="container testimonials">
+    <h2 class="section-title">What hotels say</h2>
+    <div class="testimonial-grid">
+      <blockquote>
+        "Switched our guest amenities to Behal Chemicals — guests loved the texture and eco message. Reorders placed quarterly." <cite>— Boutique Hotel Manager</cite>
+      </blockquote>
+      <blockquote>
+        "Premium feel, beautiful packaging and fast lead times. Helps our sustainability rating." <cite>— Operations Head, Luxury Resort</cite>
+      </blockquote>
+    </div>
+  </section>
+
+  <section id="contact" class="contact container">
+    <div class="contact-grid">
+      <div>
+        <h2>Work with us</h2>
+        <p>Tell us about your property and needs — we’ll prepare a tailored amenity kit and sample pack.</p>
+        <form id="contactForm" action="#" onsubmit="handleSubmit(event)">
+          <label>
+            Name
+            <input type="text" name="name" required />
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" required />
+          </label>
+          <label>
+            Hotel name
+            <input type="text" name="hotel" />
+          </label>
+          <label>
+            Message
+            <textarea name="message" rows="4" required></textarea>
+          </label>
+          <button class="btn-primary" type="submit">Request Sample Pack</button>
+        </form>
+      </div>
+      <aside class="contact-aside">
+        <h3>Quick info</h3>
+        <p><strong>Products:</strong> Wheat-straw toothbrushes, jute slippers, wheat-straw combs, shaving razors, biodegradable packaging.</p>
+        <p><strong>Theme:</strong> Beige, Velvety Maroon & Gold</p>
+        <p><strong>Instagram:</strong> <a href="https://www.instagram.com/reel/DO8aLrACTWp/?utm_source=ig_web_copy_link" target="_blank" rel="noopener">Open reel →</a></p>
+      </aside>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <img src="assets/logo.svg" alt="logo" class="footer-logo"/>
+      <p>© <span id="year"></span> Behal Chemicals — Eco Luxury Hotel Amenities</p>
+    </div>
+    <div class="socials">
+      <a href="https://www.instagram.com/behalchemical" target="_blank" rel="noopener">Instagram</a>
+      <a href="mailto:info@behalchemical.com">Email</a>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

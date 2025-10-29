@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 240 240">
+<rect fill="#f5efe6" rx="18" width="240" height="240"/>
+<g transform="translate(40,40)">
+  <circle cx="80" cy="40" r="36" fill="#6a1b18"/>
+  <rect x="44" y="86" width="72" height="18" rx="6" fill="#cfa24a"/>
+  <text x="6" y="160" font-family="sans-serif" font-size="22" fill="#6a1b18" font-weight="700">Behal</text>
+  <text x="6" y="182" font-family="sans-serif" font-size="14" fill="#6a1b18">Chemicals</text>
+</g>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="520" viewBox="0 0 800 520">
+  <defs>
+    <linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#f7f1e8"/></linearGradient>
+  </defs>
+  <rect fill="url(#g)" width="800" height="520"/>
+  <g transform="translate(80,40)" fill="none" stroke="#6a1b18" stroke-width="8" stroke-linecap="round">
+    <path d="M30 350 q120 -260 240 0" opacity="0.12"/>
+  </g>
+  <rect x="110" y="110" width="160" height="260" rx="18" fill="#fff" stroke="#e9e1d6"/>
+  <rect x="310" y="110" width="160" height="260" rx="18" fill="#fff" stroke="#e9e1d6"/>
+  <rect x="510" y="110" width="160" height="260" rx="18" fill="#fff" stroke="#e9e1d6"/>
+  <text x="140" y="420" font-size="20" fill="#6a1b18" font-weight="700">Wheat-straw</text>
+  <text x="360" y="420" font-size="20" fill="#6a1b18" font-weight="700">Toothbrushes</text>
+</svg>
